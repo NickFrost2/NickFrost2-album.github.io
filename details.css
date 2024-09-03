@@ -1,0 +1,80 @@
+
+.details-hero {
+  background-image: url(details-hero.jpg);
+}
+.contact-div {
+  width: 48%;
+  height: 100%;
+  display: inline;
+  float: left;
+  margin-left: 2%;
+  position: relative;
+}
+.picture-overlay img {
+  position: absolute;
+  height: 125%;
+  width: 70%;
+  top: 15%;
+  left: 10%;
+  height: 90%;
+  object-fit: cover;
+  object-position: 100% 20%;
+  margin: 0;
+  padding: 0;
+}
+.description-overlay {
+  position: absolute;
+  top: 7%;
+  left: 5%;
+ height: 100%;
+  width: 100%;
+   color: var(--white);
+}
+.description-overlay h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.description-overlay p {
+  font-size: larger;
+  line-height: 30px;
+}
+.details-items {
+  width: 31%;
+  height: 100%;
+  display: inline;
+  float: left;
+  margin-left: 20px;
+  overflow: hidden;
+  box-shadow: 0px 3px 6px rgba(0, 128, 0, 0.25);
+}
+
+.details-items .album-img {
+  height: 100%;
+}
+.album.details-album {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: -25px;
+  padding-top: 20px;
+  height: 350px;
+  position: relative;
+}
+
+.album-container.details-container {
+  position: absolute;
+  width: 90%;
+  height: 310px;
+  left: 5%;
+  margin-bottom: 20px;
+}
+.manifesto {
+  height: 50px;
+  width: max-content;
+  background-color: var(--blue);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-size: large;
+  color: var(--white);
+}

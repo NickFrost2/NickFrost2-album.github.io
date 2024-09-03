@@ -1,0 +1,85 @@
+
+div.container {
+  position: relative;
+  height: 100vh;
+ }
+ .login img {
+   width: 30%;
+   height: auto;
+   transform: translate(100px, 0px);
+}
+
+ form.login {
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--trans);
+  padding: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 1px var(--blue), 1px 0 1px var(--blue);
+  border: 1px var(--blue);
+  height: 70vh;
+  width: 25vw;
+ }
+ 
+  .login input[type="checkbox"] {
+   height: 15px;
+   width: 15px;
+  }
+
+  .login button {
+   width: 100%;
+   background-color: var(--blue);
+   height: 50px;
+   border: 0 solid var(--trans);
+   border-radius: 10px;
+   color: var(--white);
+  }
+  .login button:hover {
+   background-color: var(--green);
+  }
+  .login a {
+   text-decoration: none;
+   
+  }
+   
+   .input-group {
+    position: relative;
+   }
+    .input-group input {
+     width: 100%;
+     border: 1px gray solid;
+     height: 55px;
+     width: 100%;
+     padding: 10px;
+    }
+    .input-group label {
+     position: absolute;
+     top: 15px;
+     left: 10px;
+     color: var(--black);
+     transition: all 0.5s ease;
+     pointer-events: none;
+    }
+    .input-group input:focus ~ label, .input-group input:not(:placeholder-shown) ~ label {
+     top: 5px;
+     left: 10px;
+     font-size: 70%;
+     color: var(--blue);
+    }
+    #name {
+     border-radius: 10px 10px 0 0;
+    }
+    #email {
+     border-radius: 0 0 10px 10px;
+    }
+.login h2 {
+ font-size: larger;
+ font-weight: normal;
+}
+.input-group input:focus, .subscribe input:nth-child(1):focus {
+ border: 2px solid var(--blue);
+ outline: none;
+}

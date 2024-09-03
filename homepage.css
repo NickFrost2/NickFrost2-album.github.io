@@ -1,0 +1,201 @@
+
+/*album.html
+ */
+
+/*the hero section*/
+.hero-section {
+  width: 100%;
+  height: 550px;
+  background-image: url(faculty.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 0 10px 10px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.contact-hero {
+  background-image: url(contact.png);
+  height: 400px;
+}
+
+/*button.overlay-item {
+  position: absolute;
+  top: 400px;
+  left: 80%;
+  width: 150px;
+  height: 50px;
+  background-color: var(--blue);
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: var(--white);
+}/*
+
+/*logo part*/
+
+.feature-items, #middle-items {
+  width: 60%;
+  height: 100%;
+  display: inline;
+  float: left;
+}
+
+.feature-items:nth-child(2), #middle-item {
+  width: 40%;
+}
+
+.feature-description {
+  width: 100%;
+  height: 100%;
+}
+
+.des-heading {
+  width: 90%;
+  height: 80%;
+  margin: 80px 20px 20px 20px;
+  padding-left: 20px;
+  color: var(--blue);
+  font-size: 25px;
+  font-family: "web-font";
+}
+
+.des-heading span {
+  color: var(--green);
+  font-size: 22px;
+}
+
+.des-heading p {
+  color: var(--black);
+}
+
+/*excutives part*/
+h1.title, h3.title {
+  margin-left: 60px; 
+  font-size: 30px;
+  color: var(--green);
+  padding-top: 20px;
+}
+
+h3.title {
+  font-size:25px;
+  margin-bottom: 60px;
+}
+
+.album {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: -50px;
+  padding-top: 20px;
+  height: 450px;
+  position: relative;
+}
+
+.album-container {
+  position: absolute;
+  width: 90%;
+  height: 400px;
+  left: 5%;
+  margin-bottom: 20px;
+}
+
+#last-container {
+  left: 15%;
+  width: 70%;
+}
+
+#fl-item, #sl-item, #tl-item {
+  width: 30%;
+}
+
+.album-items {
+  width: 23%;
+  height: 100%;
+  display: inline;
+  float: left;
+  margin-left: 20px;
+  border-radius: 20px 0;
+  overflow: hidden;
+  box-shadow: 0px 3px 6px rgba(0, 128, 0, 0.25);
+}
+
+.album-img {
+  width: 100%;
+  height: 75%;
+
+}
+.album-img img, .feature-description img, .governor-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 100% 20%;
+  margin: 0;
+  padding: 0;
+}
+
+.album-description {
+  width: 100%;
+  height: 30%;
+  background-color:  transparent;
+  padding: 10px;
+  margin-top: -20px;
+  text-align: center;
+}
+h5 span {
+  color: var(--green);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.album-button {
+  background-color: transparent;
+  color: var(--blue);
+  outline: none;
+  border: 1px solid var(--green);
+  width: 80px;
+  height: 35px;
+  margin-top: -15px;
+  border-radius: 7px;
+}
+.album-button:hover, button.overlay-item:hover, .subscribe input:nth-child(2):hover, .manifesto:hover {
+  color: var(--white);
+  background-color: var(--green);
+  cursor: pointer;
+}
+
+.governor-album {
+  height: 350px; 
+  margin-top: -30px;
+  padding: 0;
+}
+
+.governor-container {
+  height: 100%;
+}
+
+.governor-items {
+  box-shadow: none;
+  padding-left: 20px;
+}
+
+.governor-img {
+  height: 75%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.governor-img img, .feature-description img {
+  clip-path: circle(50% at center);
+}
+
+.governor-button {
+  width: 100%;
+  height: 45px;
+  background-color: var(--blue);
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: var(--white);
+  margin-top: -50px;
+}
